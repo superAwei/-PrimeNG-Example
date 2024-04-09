@@ -1,0 +1,15 @@
+
+:root {
+    --primary-color: #007bff; /* 修改主题色 */
+    --accent-color: #6c757d; /* 修改强调色 */
+    --text-color: #343a40; /* 修改文本颜色 */
+    /* 其他变量 */
+  }
+  
+  /* 可以根据需要覆盖其他组件的样式 */
+  .ui-button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-color: var(--primary-color);
+  }
+ 
