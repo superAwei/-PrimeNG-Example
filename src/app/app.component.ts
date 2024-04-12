@@ -45,9 +45,9 @@ export class AppComponent {
 ];
 selectedCity: any = null;
 products1: any[] = [
-  { code: 'P001', name: 'Product 1', category: 'Category A', quantity: 10, price: 100 },
-  { code: 'P002', name: 'Product 2', category: 'Category B', quantity: 20, price: 200 },
-  { code: 'P003', name: 'Product 3', category: 'Category A', quantity: 30, price: 300 },
+  { code: 'P001', name: '小明', category: 'Category A', quantity: 10, price: 100 },
+  { code: 'P002', name: '小花', category: 'Category B', quantity: 20, price: 200 },
+  { code: 'P003', name: '小華', category: 'Category C', quantity: 30, price: 300 },
   // 添加更多產品資料
 ];
 
