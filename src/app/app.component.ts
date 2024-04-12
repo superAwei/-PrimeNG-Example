@@ -44,5 +44,11 @@ export class AppComponent {
   {name: 'Paris', code: 'PRS'}
 ];
 selectedCity: any = null;
- 
+products1: any[] = [
+  { code: 'P001', name: 'Product 1', category: 'Category A', quantity: 10, price: 100 },
+  { code: 'P002', name: 'Product 2', category: 'Category B', quantity: 20, price: 200 },
+  { code: 'P003', name: 'Product 3', category: 'Category A', quantity: 30, price: 300 },
+  // 添加更多產品資料
+];
+
 }

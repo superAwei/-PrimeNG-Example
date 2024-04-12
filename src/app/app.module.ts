@@ -9,6 +9,8 @@ import { SelectButtonModule } from 'primeng/selectbutton';
 import { TreeSelectModule } from 'primeng/treeselect';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DropdownModule } from 'primeng/dropdown';
+import { TableModule } from 'primeng/table';
+
 
 
 
@@ -26,7 +28,9 @@ import { DropdownModule } from 'primeng/dropdown';
     SelectButtonModule,
     TreeSelectModule,
     BrowserAnimationsModule,
-    DropdownModule
+    DropdownModule,
+    TableModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
